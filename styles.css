@@ -108,6 +108,10 @@ img {
     box-shadow: 0px 5px var(--main-font-color);
 }
 
+#guide-info {
+    text-shadow: 0px 0px 1px black;
+}
+
 #guide-img {
     width: 180px;
     height: 248px;
