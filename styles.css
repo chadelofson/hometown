@@ -1,0 +1,120 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+:root {
+    --hero-font-color: #ffffff;
+    --hero-title-bg: #1D3557;
+    --hero-subtitle-bg: #25a18e;
+    --activity-bg-color: #9fffcb;
+    --main-font-color: #004e64;
+    --guide-bg: #00a5cf;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    color: var(--main-font-color);
+}
+
+img {
+    width: 100px;
+}
+
+.container {
+    width: 720px;
+    margin: 0 auto;
+}
+
+#hero-section {
+    height: 343px;
+    background-image: url("images/hero.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    border: none;
+    color: var(--hero-font-color)
+}
+
+#hero-title {
+    background: var(--hero-title-bg);
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 32px;
+}
+
+#hero-subtitle {
+    background: var(--hero-subtitle-bg);
+    font-size: 18px;
+    width: 412px;
+    padding: 5px 20px;
+    border-radius: 10px;
+}
+
+#activities-section {
+    margin: 0;
+    background: var(--activity-bg-color);
+    height: 378px;
+    border: none;
+    padding-top: 40px;
+}
+
+#activities-title {
+    margin-bottom: 50px;
+    border: none;
+}
+
+#activities-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;    
+}
+
+.activity-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.activity-detail {
+    width: 198px;
+}
+
+#guide-section {
+    height: 394px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#guide-container {
+    width: 400px;
+    height: 294px;
+    background: var(--guide-bg);
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 5px var(--main-font-color);
+}
+
+#guide-img {
+    width: 180px;
+    height: 248px;
+    margin: 0 10px 0 10px;
+    border-radius: 10px;
+}
+
+.red-border {
+    border: 2px solid red;
+}
